@@ -1,0 +1,22 @@
+{
+  "name": "bamazon-9000",
+  "version": "1.0.0",
+  "description": "command line application that allows users to shop Bamazon online",
+  "main": "bamazon.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pkeane2018/Bamazon-9000.git"
+  },
+  "author": "me",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pkeane2018/Bamazon-9000/issues"
+  },
+  "homepage": "https://github.com/pkeane2018/Bamazon-9000#readme",
+  "dependencies": {
+    "inquirer": "^6.2.1"
+  }
+}

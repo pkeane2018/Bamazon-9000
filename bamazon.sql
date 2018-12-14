@@ -60,3 +60,6 @@ CREATE table products (
     VALUES ("basketball", "Sporting and Outdoor Goods", 25.857, 536);
     
     DESCRIBE products;
+    
+    UPDATE products SET stock_quantity = 6 WHERE id = 2;
+    

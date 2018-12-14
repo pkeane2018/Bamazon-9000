@@ -145,7 +145,7 @@ function choosebyid() {
 
                 else {
 
-                    console.log("Thank you for your purchase. Have a great day!");
+                    console.log("Thank you for visiting Bamazon today. Have a great day!");
                     connection.end();
                 }
             })

@@ -1,3 +1,5 @@
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'tito6543';
+
 CREATE database bamazon;
 
 USE bamazon;
@@ -56,3 +58,5 @@ CREATE table products (
     
     INSERT INTO products (product_name, department_name, price, stock_quantity)
     VALUES ("basketball", "Sporting and Outdoor Goods", 25.857, 536);
+    
+    DESCRIBE products;

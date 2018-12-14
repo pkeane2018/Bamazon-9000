@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/pkeane2018/Bamazon-9000#readme",
   "dependencies": {
-    "inquirer": "^6.2.1"
+    "inquirer": "^6.2.1",
+    "mysql": "^2.16.0"
   }
 }

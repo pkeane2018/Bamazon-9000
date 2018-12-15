@@ -20,8 +20,6 @@ connection.connect(function(error){
 
     if (error) throw error;
 
-    console.log("connected as ID " + connection.threadId);
-
     homepage();
 
 });
@@ -33,7 +31,7 @@ function homepage() {
         {
             type: "list",
             name: "options",
-            message: "Please choose what you would like to do from the following list?",
+            message: "Please choose what you would like to do from the following list.",
             choices: ["View Products for Sale", "View Low Inventory", "Add to Inventory", "Add New Product"]
 
         }
@@ -147,20 +145,16 @@ function addToInv() {
             if (error) throw error;
 
             currentQuantity = results[0].stock_quantity;
-            console.log("The current quantity is " + currentQuantity);
             response.quantity = parseInt(response.quantity);
             newQuantity = currentQuantity + response.quantity;
-            console.log("The new quantity is " + newQuantity);
             response.id = response.id.toString();
 
             connection.query("UPDATE products SET stock_quantity = ? WHERE id = ?", [newQuantity, response.id], function(error, results, fields){
 
                 if (error) throw error;
     
-                console.log(newQuantity);
-                console.log(response.id);
-    
                 console.log("Quantity updated");
+                console.log("The new quantity is " + newQuantity);
 
                 askUser();
     

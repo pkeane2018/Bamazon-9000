@@ -1,1 +1,3 @@
 # Bamazon-9000
+
+This repository consists of two command-line applications that utilze the inquirer and mysql npms to allow users to interact with the Bamazon database. The first, bamazonCustomer.js, allows users to select the item they want to buy by id, as well as the quantity that they want of that item. It tells the user the final cost of his or her purchase and then updates the quantity in the database to reflect the purchase. The second application, Bamazon.js allows Bamazon managers to carry out four different commands. Managers can view all items currently in inventory, view items that are low in quantity, add to the quantity of certain items, and add a new item entirely.

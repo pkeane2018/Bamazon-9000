@@ -27,14 +27,37 @@ On the homescreen, if the user selects 'search by department', the program will 
 <br><br>
 ![Image-2](./images/image-2.png)
 <br><br>
-Clicking on a department will show the user all of the items in that department. The user will then be given two more options - 'choose a product' or 'start over.' Clicking 'start over' will once again direct the user to the homescreen. Meanwhile, selecting 'choose a product' will again prompt the user to input the id of the item from the options shown, and then the quantity requested. Once again, the user will be asked if he or she would like to purchase another item and will either redirect to the homescreen if the user selects 'y' or 'yes' or display a goodbye message if the user selects 'n' or 'no'. For every purchase, the quantity that the user purchases is subtracted from the quanity in the Bamazon database.
+Clicking on a department will show the user all of the items in that department. The user will then be given two more options - 'choose a product' or 'start over.'
 <br><br>
 ![Image-3](./images/image-3.png)
 <br><br>
-
+Clicking 'start over' will once again direct the user to the homescreen. Meanwhile, selecting 'choose a product' will again prompt the user to input the id of the item from the options shown, and then the quantity requested. Once again, the user will be asked if he or she would like to purchase another item and will either redirect to the homescreen if the user selects 'y' or 'yes' or display a goodbye message if the user selects 'n' or 'no'. For every purchase, the quantity that the user purchases is subtracted from the quanity in the Bamazon database.
+<br><br>
 ### Bamazon Manager
- Entering 'node bamazonManager.js' will direct the user to the Bamazon Manager home screen, which displays four options to choose from - 'View Products for Sale', 'View Low Inventory', 'Add to Inventory', and 'Add New Product.' Selecting 'View products for Sale' will display all products in stock, including product id, name, price, and quantity in stock. Selecting 'View Low Inventory' will show all items that are low in quantity, which are any that have a quanity less than five. Selecting 'Add to Inventory' will prompt the user with the message 'Please enter the id of the product you would like to add more of.' Then after the user enters the product id, the program displays the message, 'Please enter the quantity you would like to add.' After the user enters the quantity, the program displays the message 'Quantity updated' and then outputs a message with the new quantity. Selecting 'Add New Product' will prompt the user to input the name of the product to be added, followed by its department, price, and the quanity to be added. After this information has been added, it will display the message, 'Product successfully added.' After completing any of these four options, the user is prompted with the choice to either 'Return to the home screen' or 'end your session'. If the user chooses to end the session, the program displays the message 'Goodbye' and then ends the program.
- 
+ Entering 'node bamazonManager.js' will direct the user to the Bamazon Manager home screen, which displays four options to choose from - 'View Products for Sale', 'View Low Inventory', 'Add to Inventory', and 'Add New Product.'
+ <br><br>
+![Image-5](./images/image-5.png)
+ <br><br>
+ Selecting 'View products for Sale' will display all products in stock, including product id, name, price, and quantity in stock.
+ <br><br>
+![Image-6](./images/image-6.png)
+ <br><br>
+ Selecting 'View Low Inventory' will show all items that are low in quantity, which are any that have a quanity less than five.
+ <br><br>
+![Image-7](./images/image-7.png)
+ <br><br>
+ Selecting 'Add to Inventory' will prompt the user with the message 'Please enter the id of the product you would like to add more of.' Then after the user enters the product id, the program displays the message, 'Please enter the quantity you would like to add.' After the user enters the quantity, the program displays the message 'Quantity updated' and then outputs a message with the new quantity. 
+ <br><br>
+![Image-8](./images/image-8.png)
+<br><br> 
+ Selecting 'Add New Product' will prompt the user to input the name of the product to be added, followed by its department, price, and the quanity to be added. After this information has been added, it will display the message, 'Product successfully added.'
+ <br><br>
+ ![Image-9](./images/image-9.png)
+ <br><br>
+ After completing any of these four options, the user is prompted with the choice to either 'Return to the home screen' or 'end your session'. If the user chooses to end the session, the program displays the message 'Goodbye' and then ends the program.
+  <br><br>
+ ![Image-10](./images/image-10.png)
+ <br><br>
  ## Technology Used
  * JavaScript
  * NodeJS

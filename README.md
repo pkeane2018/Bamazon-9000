@@ -13,7 +13,13 @@ After, the user types 'node bamazonCustomer.js', he or she will be directed to t
 <br><br>
 ![Image-1](./images/image-1.png)
 <br><br>
-The user is then given a choice to either choose a product by its id, or to search by department in order to narrow the search further, and can navigate to an option and select it using the directional arrows. If the user selects 'choose product by id', the program displays the message 'Please input the id of the product you would like to purchase.' After the user inputs the product id number, the program will ask 'How many would you like to purchase?', prompting the user to input the quantity requested. The program will then output the name of the item requested, the unit price, and the total price for the user's purchase, as calculated by multiplying the quantity of the item purchased by the unit price. It will then ask if the user would like to purchase another item. If the user select 'n' or 'no', the program will display a message saying 'Thank you for visiting Bamazon. Have a great day!' and ends. But if the user selects 'y' or 'yes', the program will once again return to the homescreen.
+The user is then given a choice to either choose a product by its id, or to search by department in order to narrow the search further, and can navigate to an option and select it using the directional arrows. If the user selects 'choose product by id', the program displays the message 'Please input the id of the product you would like to purchase.' After the user inputs the product id number, the program will ask 'How many would you like to purchase?', prompting the user to input the quantity requested.
+<br>
+If the quantity selected is more than the quantity of the item in stock, the program will output the name of the the item selected as well as a message stating, "Insufficient quantity! Request failed." It will then ask whether the user would like to purchase a different item. If the user selects 'Y' or yes, he or she will be redirected to the homescreen. If the user selects 'n' or no, the program displays a message saying 'Thank you for visiting Bamazon. Have a great day!' and ends. 
+<br><br>
+![Image-11](./images/image-11.png)
+<br><br>
+However, if the quantity selected is less than or equal to what's in stock, the program will then output the name of the item requested, the unit price, and the total price for the user's purchase, as calculated by multiplying the quantity of the item purchased by the unit price. It will then ask if the user would like to purchase another item. If the user select 'n' or 'no', the program will display the good-bye message and end. But if the user selects 'y' or 'yes', the program will once again return to the homescreen.
 <br><br>
 ![Image-4](./images/image-4.png)
 <br><br>
